@@ -1,0 +1,44 @@
+/**
+ * Page related css
+ * Manipulates the base of page objects
+ */
+
+
+/* This style can be used with a div to make it
+ * a page object. Padding is used here to not have text touching
+ * the edge of the window.
+ */
+.page-page {
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	padding:10px;
+	position: absolute;
+}
+/**
+ * A page object which is not currently displaying. 
+ * Only one page can be displayed at a time. In older browsers, 
+ * add or remove class might not be available, hence better
+ * to alter style object.
+ */
+.page-off {
+	display: none;
+}
+/**
+ * Current page being viewed, takes up whole screen.
+ */
+.page-on {
+	display: block;
+}
+
+.page-light {
+	background-color: #fffcd3;
+	color: #42413b;
+}
+/**
+ * CSS selctor to make all h2 inside page styles cursive.
+ */
+div.page-page h2 {
+	font-family: cursive;
+}
