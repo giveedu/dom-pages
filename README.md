@@ -1,2 +1,2 @@
-# dom-pages
-A front end library for using in session page objects in the DOM
+# pages-styles
+A CSS library for the styles used in the pages architecture
