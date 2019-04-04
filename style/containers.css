@@ -1,0 +1,11 @@
+/**
+ * Unlike whole, this file contains
+ * styles intended to go inside pages.
+ */
+
+.cont-emphasis {
+	background-color: #e6ffe2;
+	color:#475645;
+	margin:10px;
+	width: 100%;
+}

@@ -13,7 +13,7 @@
 	left: 0;
 	width: 100%;
 	min-height: 100%;
-	padding:10px;
+	border:10px;
 	position: absolute;
 }
 /**
@@ -36,9 +36,18 @@
 	background-color: #fffcd3;
 	color: #42413b;
 }
+
+.page-dark {
+	background-color: #0a0702;
+	color: #ffffff;
+}
 /**
  * CSS selctor to make all h2 inside page styles cursive.
  */
 div.page-page h2 {
 	font-family: cursive;
+}
+
+div.page-page p {
+	font-family: sans-serif;
 }

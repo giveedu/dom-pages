@@ -1,0 +1,57 @@
+/**
+ * This lay out forms two side by side columns
+ */
+
+.base-container {
+    width:480px;
+}
+
+.left-column { 
+    width: 220px;
+    min-height: 300px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background: #BBE3A8;
+    font-size: 11px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.right-column { 
+    width: 220px;
+    min-height: 300px;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    background: #BBE3A8;
+    font-size: 11px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    }
+
+/*These represent the bottom columns*/
+.left-bottom-column { 
+    width: 220px;
+    min-height: 100px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background: #BBE3A8;
+    font-size: 11px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.right-bottom-column { 
+    width: 220px;
+    min-height: 100px;
+    float: right;
+    margin: 5px;
+     padding: 5px;
+     background: #BBE3A8;
+     font-size: 11px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;}
